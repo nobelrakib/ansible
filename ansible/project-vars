@@ -1,6 +1,6 @@
 master_ip: 3.93.65.112
 remote_dest: /home/ubuntu/k3s_token
-local_dest: /Users/mahmud/Desktop/skill-development/ha-kubernetes-with-k3s/ansible/temp/
+local_dest: http://home/ubuntu/ansible/ansible/temp/
 
 target_directory: /home/ubuntu/.kube
 target_file: config
