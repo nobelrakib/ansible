@@ -1,0 +1,16 @@
+
+[k3s_nodes]
+  "3.93.65.112"
+[k3s_nodes:vars]
+ansible_ssh_private_key_file=demo.pem
+ansible_user=ubuntu
+ansible_ssh_common_args='-o ProxyJump=ubuntu@3.93.65.112'
+
+[additional_agent_nodes]
+  "10.0.1.251"
+  "10.0.1.5"
+[additional_agent_nodes:vars]
+ansible_ssh_private_key_file=demo.pem
+ansible_user=ubuntu
+ansible_ssh_common_args='-o ProxyJump=ubuntu@3.93.65.112'
+
