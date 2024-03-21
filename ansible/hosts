@@ -1,16 +1,21 @@
+[bastion]
+  "54.89.91.60"
+[bastion:vars]
+ansible_ssh_private_key_file=demo.pem
+ansible_user=ubuntu
 
 [k3s_nodes]
-  "44.202.104.52"
+  "10.0.1.206"
 [k3s_nodes:vars]
 ansible_ssh_private_key_file=demo.pem
 ansible_user=ubuntu
-#ansible_ssh_common_args='-o ProxyJump=ubuntu@3.93.65.112'
+ansible_ssh_common_args='-o ProxyJump=ubuntu@54.89.91.60'
 
 [additional_agent_nodes]
-  "10.0.1.251"
-  "10.0.1.5"
+  "10.0.1.140"
+  "10.0.1.210"
 [additional_agent_nodes:vars]
 ansible_ssh_private_key_file=demo.pem
 ansible_user=ubuntu
-#ansible_ssh_common_args='-o ProxyJump=ubuntu@3.93.65.112'
+ansible_ssh_common_args='-o ProxyJump=ubuntu@54.89.91.60'
 
