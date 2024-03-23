@@ -1,4 +1,4 @@
-master_ip: 54.167.208.200
+master_ip: 54.91.198.8
 remote_dest: /home/ubuntu/k3s_token
 local_dest: /home/ubuntu/ansible/provision-stack/
 
