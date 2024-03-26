@@ -1,6 +1,6 @@
-master_ip: 10.0.1.206
+master_ip: 52.203.119.182
 remote_dest: /home/ubuntu/k3s_token
-local_dest: 
+local_dest: /home/ubuntu/ansible/provision-stack/
 
 target_directory: /home/ubuntu/.kube
 target_file: config
