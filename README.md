@@ -15,4 +15,10 @@ Now At Node0 install ansible.
 sudo apt-add-repository ppa:ansible/ansible
 sudo apt install ansible
 ```
+Now clone this repo in contol node0 and go to ansible folder and copy pem file at remote from local.
+
+<img width="908" alt="demo" src="https://github.com/nobelrakib/ansible/assets/53372696/cf6b5517-009d-41c8-9622-481a2b2cfc56">
+
+
+
 
