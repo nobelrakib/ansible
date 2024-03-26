@@ -19,6 +19,9 @@ Now clone this repo in contol node0 and go to ansible folder and copy pem file a
 
 <img width="908" alt="demo" src="https://github.com/nobelrakib/ansible/assets/53372696/cf6b5517-009d-41c8-9622-481a2b2cfc56">
 
+Now run instal-k3.yml at this folder to install kubernetes cluster in Node1,Node2&Node3.
+
+<img width="797" alt="installk3s" src="https://github.com/nobelrakib/ansible/assets/53372696/2bb4029f-f313-4301-8939-925db6d50404">
 
 
 
