@@ -8,21 +8,21 @@ cntl ansible_host=127.0.0.1 ansible_connection=local
 cntl
 
 [bastion]
-  "18.209.159.64"
+  "50.16.13.254"
 [bastion:vars]
 ansible_ssh_private_key_file=demo.pem
 ansible_user=ubuntu
 
 [k3s_nodes]
-  "52.87.213.60"
+  "52.203.119.182"
 [k3s_nodes:vars]
 ansible_ssh_private_key_file=demo.pem
 ansible_user=ubuntu
 #ansible_ssh_common_args='-o ProxyJump=ubuntu@54.89.91.60'
 
 [additional_agent_nodes]
-  "3.91.89.111"
-  "3.81.212.218"
+  "3.88.64.165"
+  "3.86.41.11"
 [additional_agent_nodes:vars]
 ansible_ssh_private_key_file=demo.pem
 ansible_user=ubuntu
